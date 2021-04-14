@@ -1,0 +1,133 @@
+.custom_nav{
+    box-shadow: 0px 2px 12px rgba(0, 0,0, .3);
+
+}
+
+.custom-divider{
+    height: 5px;
+    
+    background: rgb(3,0,56);
+    background: linear-gradient(90deg, rgba(3,0,56,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
+
+}
+
+.main-banner{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(IMG/4110021.jpg);
+    background-size: cover; 
+    color: white;
+    text-align: justify;
+
+}
+.fetures {
+    text-align: center;
+    background-color: #daf7e299;
+}
+.feture-list {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.cources {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+@media (min-width:800px){
+    .cource-cards{
+        
+        font-size: 16px !important;
+        
+    }
+}
+.cource-cards{
+    margin-bottom: 20px;
+    font-size: 1.9vw;
+    
+}
+
+.cource-cards:hover{
+    box-shadow: 2px 2px 12px rgba(0, 0,0, .3);
+
+}
+.course-trining-container{
+
+    align-content: center;
+    text-align: center;
+}
+.course-trining{
+    background-color: #daf7e299;   
+}
+.course-training-content {
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+.course-training-content >li:hover{
+    color: blue;
+   
+}
+ .Review-slide{
+    background-color: #3e63484d;
+    padding-bottom: 35px;
+    
+
+ }
+
+ .Review-slide .bi{
+    color: orange;
+
+ }
+
+footer.main-footer {
+    background-color: #292929;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+aside.footer-widget {
+    margin-bottom: 25px;
+}
+aside.footer-widget h5 {
+    font-size: 16px;
+}
+aside.footer-widget ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+aside.footer-widget ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #adadad;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+address h2 {
+    font-size: 20px;
+}
+address p {
+    font-size: 14px;
+}
+section.copy {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+section.copy p{
+    margin: 0px;
+}
+.about-us-content{
+    padding:50px;
+    
+    background-color: #d8deda;
+
+}
+.map{
+    margin-top: 57px;
+    margin-bottom: 0px !important;
+    display: flex;
+}
